@@ -1,0 +1,90 @@
+/*全局变量*/
+body{margin:0px; padding:0px; font-family:"宋体",Arial, Helvetica, sans-serif; font-size:12px;color:#666; overflow-x:hidden; }
+ul,ol{list-style:none; margin:0px; padding:0px;}
+form{padding:0px; margin:0px;}
+img{border:none;}
+a{text-decoration:none; color:#666;}
+a:hover{text-decoration:underline;}
+h1,h2,h3,h4,h5,p{margin:0px; padding:0px;}
+.yh-width{ width:980px; margin:auto; overflow:hidden;  }
+.yha-width{ width:980px; margin:auto; }
+/*银湖头部*/
+.yh-top{ width:100%; height:23px; background:#F6F6F6; border-bottom:1px solid #F2F2F2;}
+.yh-top p{ line-height:24px; margin-left:11px; float:left; width:500px; display:inline; }
+.yh-top p a{color:#666;}
+.yh-top p a:hover{color:#DC1419; }
+.yh-top p a span{color:#DC1419;}
+.yh-top ul{ float:right;}
+.yh-top ul li{ float:left;line-height:24px;}
+.yh-top ul li.bj01 a{padding-right:25px;  background:url(../images/yh_bj01.gif) no-repeat right top ;}
+.yh-top ul li a{ padding:0px 7px;}
+.yh-head{ height: 63px; padding-top:15px;}
+.yh-logo{ float:left; width:166px; display:inline}
+.yh-headrig{ float:right; margin-right:5px; display:inline}
+.yh-gw{background:url(../images/yh_bj02.gif) no-repeat left top; width:172px; height:26px; margin-left:90px; line-height:26px; padding-left:38px;}
+.yh-gw b{ float:left; font-weight:500;}
+.yh-gw b a{ color:#CA3B39; font-weight:bold;}
+.yh-gw span{ float:right; margin-right:7px; display:inline; width:50px;}
+.yh-gw span a{ color:#fff;}
+.yh-rx{ width:300px; height:32px; overflow:hidden;}
+.yh-nav{ height:36px;position:relative; z-index:999; margin-bottom:-2px;}
+.yh-nav li{ float:left; margin-top:4px; }
+.yh-nav li.cur{margin-top:0px; }
+.yh-navbot{ background:url(../images/yh_bj03.gif) repeat-x; height:45px; width:100%;}
+.yh-sousuo{ padding-left:225px; overflow:hidden;}
+.yh-soso{background:url(../images/yh_bj02.gif) no-repeat left -29px; width:325px; height:21px; margin-top:11px; float:left; display:inline;}
+.yh-soso input{ border:0px; height:15px; width: 235px; margin:3px 0px 0px 25px; display:inline; float:left}
+.yh-soso a{ margin-left:8px; padding:3px 15px; float:right; color:#FFF; text-decoration:none;}
+.yh-rmsoso{ float:right; width:415px; height:45px; line-height:45px; color:#fff; overflow:hidden; }
+.yh-rmsoso p{padding:0px 3px; float:left;}
+.yh-rmsoso a{ color:#fff;padding:0px 3px; float:left; white-space:nowrap; display:block}
+/*银湖底部*/
+.yh-bottom{ background:url(../images/yh_bj01.gif) repeat-x 0px -289px; width:100%;  overflow:hidden; padding-bottom:19px;  }
+.yh-botle{ width:750px; margin-top:33px; float:left; display:inline;}
+.yh-botle ul{ width:150px; float:left; border-left:1px dashed #D4D4D4; text-align:center; margin-left:-1px }
+.yh-botle ul ol{ font-size:14px; height:26px; font-weight:bold;}
+.yh-botle ul li{font-size:14px; height:24px; line-height:24px;}
+.yh-botle ul a{color:#323232;}
+.yh-botrig{ width:230px; float:right; text-align:left; margin-top:33px; display:inline; }
+.yh-botrig p{ float:left; }
+.yh-botsb{width:100%; overflow:hidden; background:#F4F4F4; }
+.yh-botbox{ text-align:center;}
+.yh-botbox p img{ margin:10px 5px;}
+.yh-cnav{width:100%; overflow:hidden; background:#5C5C5C; height:28px; color:#FFF}
+.yh-cnav a{ color:#fff; line-height:28px; padding:0px 6px 0px 3px; }
+.yh-foot{text-align:center; height:24px; line-height:24px;}
+/**/
+.yh-path{ height:27px; line-height:27px; overflow:hidden; background:url(../images/yh_pathbg.gif) no-repeat 0px 7px; padding:2px 0px 0px 20px; width:960px; margin:0px auto; clear:both;}
+.yh-path a{ color:#434343;}
+.yh-path span{ color:#c4140f;}
+/*所有分类*/
+.yh-boxa{ zoom:1;  overflow:visible; margin:0px auto;   width:980px;margin-bottom:10px; }
+.yh-spfl{ width:200px; float:left; position:relative; z-index:99px; margin-top:-37px;margin-bottom:10px; }
+.yh-spfl .tit{ height:32px; }
+.yh-spfl .main{  border:1px solid #D5AD56;background:#FDF9F0; padding:6px 7px;}
+.yh-spfl .mains{padding:5px 0px;  overflow:hidden;}
+.yh-spfl h3 { font-size:12px; line-height:22px; display:block; }
+.yh-spfl h3 a { color:#313435; float:left; margin-left:3px; display:inline;}
+.yh-spfl h3 span { float:right;}
+.yh-spfl h3 span a {background:url(../images/yh_bj01.gif) no-repeat left -46px; width:20px; height:20px;}
+.yh-spfl .box {overflow:hidden; width:184px;}
+.yh-spfl .mains .box a {background:url(../images/yh_bj01.gif) no-repeat left -17px; display:inline;  margin-left:-5px;  padding:0px 10px 0px 7px; line-height:23px; white-space:nowrap; float:left;}
+.yh-spfl .mains .box a:hover { color:#D91614;}
+.mainline{border-bottom:1px dashed #FFD77B;}
+
+
+
+.yhz-sousuo{zoom:1;}
+.yhz-list{ width:225px; float:left; background:url(../images/yh_spfltit.jpg) no-repeat; height:32px; margin-top:10px; position:relative;}
+.yhz-list s{ float:right; width:17px; height:17px; overflow:hidden;background:url(../images/yhz_sorbg.gif) no-repeat; margin:8px 34px 0px 0px; cursor:pointer;}
+.yhz-list s.cur{background:url(../images/yhz_sorbg.gif) no-repeat -17px 0px;}
+.yhz-spfl{ position:absolute; top:30px; left:0px; background:#FFF; margin:0px; display:none;}
+
+
+/*折叠广告*/
+#pageflip {RIGHT: 0px; FLOAT: right; POSITION: relative; TOP:24px}
+#pageflip IMG.cc {Z-INDEX: 9999; RIGHT: 0px; WIDTH: 78px; POSITION: absolute; TOP: 0px; HEIGHT: 81px; ms-interpolation-mode: bicubic}
+#pageflip .msg_block {RIGHT: 0px; OVERFLOW: hidden; WIDTH:78px; POSITION: absolute; TOP: 0px; HEIGHT: 78px}
+#pageflip .msg_block img{width:207px; height:219px; overflow:hidden;Z-INDEX: 99; RIGHT: 0px; POSITION: absolute; TOP: 0px;ms-interpolation-mode: bicubic}
+
+
